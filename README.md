@@ -1,3 +1,3 @@
-Please ask for permission before using the codes ! Thnaks and God bless :)
+Please ask for permission before using the codes ! Thanks and God bless :)
 
 ====================
