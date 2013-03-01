@@ -4,6 +4,10 @@
 #include<cstring>
 #include<vector>
 #include <stdio.h>
+#include<fstream>
+#include <algorithm>
+#include<string>
+#include<sstream>
 
 using namespace std;
 Project::Project()
@@ -897,4 +901,35 @@ void Project::factorial_digit_sum(){
   cout<< "--------------------------------------------------------"<<endl;
   cout<< "Sum of the digits in 100! is: " <<sum<<endl;
   cout<< "--------------------------------------------------------"<<endl;
+}
+
+
+void Project:: name_scores(){
+    ifstream cin("names.txt");
+    vector<string> names;
+
+    string in, tmp, name;
+    cin >> in;
+
+    for(int i=0;i<in.size();i++){
+    if(in[i]=='"')continue;
+    if(in[i]==',')tmp += ' '; else tmp += in[i];
+    }
+
+    stringstream ss(tmp);
+    while(ss >> name)names.push_back(name);
+
+    sort(names.begin(),names.end());
+
+    int sum = 0;
+    for(int i=0;i<names.size();i++){
+    int score = 0;
+    for(int j=0;j<names[i].size();j++)score += names[i][j]-'A' + 1;
+    sum += score * (i + 1);
+    }
+
+    cout<< "-------------------------------------------------------------"<<endl;
+    cout << "The total score of all the name in the files is: " << sum << endl;
+    cout<< "-------------------------------------------------------------"<<endl;
+
 }

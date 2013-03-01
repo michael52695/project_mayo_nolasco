@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="main.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="2779" topLine="111" />
+	<File name="Project.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="25052" topLine="891" />
+	</File>
+	<File name="Project.h" open="1" top="0" tabpos="2">
+		<Cursor position="959" topLine="1" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="14" topLine="26" />
 	</File>
 </CodeBlocks_layout_file>
