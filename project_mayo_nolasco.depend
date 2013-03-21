@@ -1,15 +1,15 @@
 # depslib dependency file v1.0
-1362134630 source:c:\users\daniel\desktop\project_mayo_nolasco\main.cpp
+1363865428 source:c:\users\daniel\desktop\project_mayo_nolasco\main.cpp
 	<iostream>
 	<cstdlib>
 	<string>
 	<math.h>
 	"Project.h"
 
-1362135040 c:\users\daniel\desktop\project_mayo_nolasco\project.h
+1363865428 c:\users\daniel\desktop\project_mayo_nolasco\project.h
 	<string>
 
-1362136592 source:c:\users\daniel\desktop\project_mayo_nolasco\project.cpp
+1363865464 source:c:\users\daniel\desktop\project_mayo_nolasco\project.cpp
 	"Project.h"
 	<iostream>
 	<math.h>
